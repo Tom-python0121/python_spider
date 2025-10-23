@@ -13,7 +13,6 @@ def get_douban_top100():
     从豆瓣 Top250 页面抓取前 100 条电影信息。
     使用 requests + BeautifulSoup。
     """
-
     # 设置请求头，模拟浏览器访问，防止被封
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "

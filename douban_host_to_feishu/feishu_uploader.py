@@ -46,7 +46,7 @@ def get_token():
 def upload_to_feishu(df, token):
     """
     将 pandas.DataFrame 数据批量上传到飞书多维表格。
-    - 每次最多上传 10 条（飞书 API 限制）
+    - 每次最多上传 10 条（飞书 API 限制值）
     """
     # 拼接上传接口 URL
     url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{APP_TOKEN}/tables/{TABLE_ID}/records/batch_create"

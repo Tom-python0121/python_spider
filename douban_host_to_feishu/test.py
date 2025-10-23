@@ -24,4 +24,4 @@ if res.status_code == 200:
         print("页面长度：", len(res.text))
         print("包含 div.item 吗？", "div class=\"item\"" in res.text)
 else:
-    print("❌ 访问异常，可能被反爬或封禁。")
+    print("❌ 访问异常，可能被反爬或封禁")
